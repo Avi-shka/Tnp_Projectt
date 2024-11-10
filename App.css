@@ -1,0 +1,10 @@
+/* Global Styles (keep app-wide styling here) */
+
+/* Example: Global body and typography styles */
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;  /* Prevent horizontal scrolling */
+}
+
+/* You can add any other global styling here */
