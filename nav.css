@@ -1,0 +1,71 @@
+/* Navbar Styles */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: space-between; /* Space between logo and menu */
+  align-items: center;
+  gap: 1rem; /* Decrease gap to reduce spacing between items */
+  padding: 5px 15px; /* Adjust padding to make navbar smaller */
+  height: 50px; /* Set a smaller height for the navbar */
+  position: relative; /* Ensure dropdown content is positioned correctly */
+}
+.navbar ul{
+padding: 0;
+margin: 0;
+list-style: none;
+display: flex;
+gap: 3rem;
+
+}
+.navbar a{
+  font-size: 1.2rem;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+/* Logo Styles */
+.navbar-logo img {
+  max-width: 110px; /* Adjust logo size */
+  height: auto;
+}
+
+/* Navbar Links Styles */
+
+
+/* Hover effect for links */
+
+
+/* Dropdown Content Styles */
+.dropdown-content {
+  display: none; /* Initially hidden */
+  position: absolute;
+  top: 100%; /* Position it below the dropdown button */
+  
+  background-color: rgba(0, 0, 0, 0.8); /* Dark background */
+  min-width: 160px; /* Minimum width for dropdown */
+  padding: 0;
+}
+
+.dropdown-content a {
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #555; /* Darker background on hover */
+}
+
+/* Display dropdown when hovering */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Responsive Design: Mobile-Friendly */
+
+
+
+

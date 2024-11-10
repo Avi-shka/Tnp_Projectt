@@ -1,0 +1,89 @@
+/* Navbar Styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: space-between; /* Space between logo and menu */
+  align-items: center;
+  z-index: 100;
+   
+}
+.navbar ul{
+padding: 0;
+margin: 0;
+list-style: none;
+display: flex;
+gap: 1rem;
+
+}
+.navbar a{
+  position: relative;
+  font-size: 18px;
+  font-weight: 100;
+  text-decoration: none;
+ margin-left: 40px;
+  display: flex;
+  align-items: center;
+ 
+}
+/* Logo Styles */
+.navbar-logo img {
+  max-width: 150px; /* Adjust logo size */
+  height: auto;
+}
+
+/* Navbar Links Styles */
+.navbar-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Horizontally aligned items */
+  gap: 20px; /* Space between items */
+}
+
+
+
+/* Hover effect for links */
+.navbar-links li:hover a {
+  background-color: #444; /* Darker shade on hover */
+}
+
+/* Dropdown Content Styles */
+.dropdown-content {
+  display: none; /* Initially hidden */
+  position: absolute;
+  top: 100%; /* Position it below the dropdown button */
+  
+  background-color: rgba(0, 0, 0, 0.8); /* Dark background */
+  min-width: 160px; /* Minimum width for dropdown */
+  padding: 0;
+}
+
+.dropdown-content a {
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #555; /* Darker background on hover */
+}
+
+/* Display dropdown when hovering */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Responsive Design: Mobile-Friendly */
+
+
+
+  .navbar-logo img {
+    max-width: 120px; /* Adjust logo size for smaller screens */
+  }
+
