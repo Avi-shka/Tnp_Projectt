@@ -1,0 +1,91 @@
+/* Homepage Specific Styles */
+ /* Homepage Specific Styles */
+
+.homepage {
+  background-image: url('C:/Users/nvs20/Desktop/JFST/reactunit3/typroject1/my-app/public/assets/coll.png'); /* Replace with your image URL */
+ background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+/* Background Image and Full Page Styling */
+
+/* Content Styling */
+.content {
+text-align: center;
+margin-top: 150px;
+}
+
+/* Transparent Gray Box */
+.content-box {
+background-color: rgba(128, 128, 128, 0.7); /* Semi-transparent gray background */
+padding: 20px 40px;
+border-radius: 8px; /* Optional: rounds the corners */
+max-width: 600px;
+margin: 0 auto;
+}
+
+/* Heading and Paragraph Styling */
+.content-box h1 {
+font-size: 3rem;
+margin: 0;
+}
+
+.content-box p {
+font-size: 1.2rem;
+margin: 10px 0 0;
+}
+.description {
+  margin-top: 20px;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  width: 600px; /* Adjust the width as needed */
+  height: 500px;
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.description p {
+  margin: 0;
+}
+.marquee-container {
+  width: 100%;
+  padding: 10px;
+  background-color:  rgba(255, 255, 255, 0.7);
+  border: 2px solid #85b0f0; /* Add a border for the box */
+  border-radius: 5px; /* Rounded corners for a nicer look */
+  margin-top: 50px; /* Space below the marquee */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.marquee-text {
+  font-size: 2em; /* Increase font size */
+  font-weight: bold;
+  color: #007bff;
+  text-align: center;
+  display: block;
+  padding: 5px 0; /* Center padding within the marquee */
+}
+.above-homepage-image{
+  width: 600px; /* Adjust the width as needed */
+  height: 500px;
+  display: block;
+}
+.below-homepage-image {
+  width: 1400px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin: 20px auto; /* Center the image horizontally */
+  display: block;
+  border-radius: 5px; /* Optional: rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+.content-container {
+  display: flex;
+  gap: 200px; /* Space between the two containers */
+  align-items: center; /* Align items vertically center */
+}
